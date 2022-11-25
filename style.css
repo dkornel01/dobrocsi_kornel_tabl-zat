@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    border-collapse:collapse ;
+}
+
+td, th{
+    border: 2px double red;
+}
+
+tbody tr:nth-child(even){
+    background-color:blue;
+}
+tbody tr:nth-child(odd){
+    background-color: chartreuse;
+}
+th{
+    background-color:brown;
+}
+@media screen and(max-width:500px) {
+article{
+    overflow-x: scroll;
+}    
+}

@@ -1,0 +1,12 @@
+tbody tr:nth-child(even){
+    background-color: rgb(136, 135, 135);
+    }
+    tbody tr:nth-child(odd){
+    background-color:lightyellow;
+    }
+table{
+    width: 100%;
+}
+td,th{
+    border: 1px black solid;
+}

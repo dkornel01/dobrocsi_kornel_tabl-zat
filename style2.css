@@ -1,0 +1,24 @@
+header{
+    font-weight: bolder;
+}
+table{
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+td,th{
+    border: 1.5px navy double;
+}
+thead{
+background-color: lightskyblue;
+}
+tbody tr:nth-child(even){
+background-color: rgb(136, 135, 135);
+}
+tbody tr:nth-child(odd){
+background-color:lightyellow;
+}
+caption{
+    font-weight: bolder;
+    font-size: xx-large;
+}
